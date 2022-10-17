@@ -14,7 +14,7 @@ const toggleDrawer = () => {
 </script>
 
 <template>
-  <q-layout view="lHh lpR lFf">
+  <q-layout view="hHh lpR fFf">
     <TheNavbar @toggle-drawer="toggleDrawer" />
 
     <TheDrawer v-model="leftDrawer" />
